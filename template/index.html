@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+	<script>
+		var globalTime = new Date().getTime();
+	</script>
+
+	 <style type="text/css">
+	body{text-align:center;}
+	.debug{width:400px;height:100px;background:#999;border:1px solid red;position:absolute;top:0; }
+	</style>
+</head>
+
+<body onload="dd.game.main('canvas',30);">
+
+
+	<canvas id="canvas" width="640" height="960">
+		your bowser not support html5
+	</canvas>
+	<!--
+	<div id='debug' class="debug"> asdasdasdas</div>
+-->
+	<script src="js/easeljs-0.7.1.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/Base.js"></script>
+</body>
+</html>
