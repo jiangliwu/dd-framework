@@ -50,9 +50,10 @@ dd.game._preload = function() {
 		},
 		success: function() {
 
-			var l = new LoadingWindow().setPos(50,50);
-			dd.print(l);
-			l.initUi();
+			var l = new LoadingWindow().setPos(50, 50);
+			l.initUI();
+			// 
+			//var c = new dd.display.node();
 
 			dd.print("-- all js file load success --- ");
 		}
